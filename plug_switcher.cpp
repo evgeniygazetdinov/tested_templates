@@ -1,7 +1,7 @@
  Arduino Relay Control Code
   
   #define relay A0
-  #define interval 600000+(600000*5)
+  #define interval (600000+(600000*5))*2
     void setup() {
       pinMode(relay, OUTPUT);
       pinMode(LED_BUILTIN, OUTPUT);
